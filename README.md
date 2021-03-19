@@ -1,4 +1,4 @@
-# Information Systems Security
+# Information Systems Security (final)
 
 ## 1 INTRODUCTION
 The final project is composed by 3 parts. The first part was about encryption, decryption (symmetric/ asymmetric), hashing, signing and validation of signing and certificate. The second part was an introduction to SSL (secure socket layer) implementation. A connection should be established between a server and a client. The third part was more advance techniques about SSL and how encrypted connection can be achieved.    
@@ -44,13 +44,3 @@ In this module a simple Server is implemented. The server creates a python socke
 In this module a simple Client is implemented. The client creates a socket and make it to require certificate in order to proceed in connection. As ca file we use the same file with certificate because it is self-signed. Client tries to connect to the port and hostname the server has define (hostname is again local host-same machine). Sends his certificate and key in order to be authenticated by the server too. If the connection and the authentication were successful, information about the server shown in client’s side. Then he waits for the server to send him the encrypted AES-128 key. When he gets the key, he used his private key to decrypt it and use it for the communication. App ask from user to enter some data via console. The data are encrypted with AES-128, CBC mode and they are send to the server. Client waits for a server response encrypted with the AES-key. If the response can be decrypted that means the key has been exchanged with success.
 
 More information on execution can be found in file ‘README.txt’
-
-REFERENCES
-- stackoverflow.com
-- docs.python.org
-- www.sslshopper.com
-- stackexchange.com
-- github.com
-- pyopenssl.sourceforge.net
-- www.laurentluce.com
-
