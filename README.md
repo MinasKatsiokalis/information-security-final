@@ -1,4 +1,4 @@
-#Information Systems Security
+# Information Systems Security
 
 ##1 INTRODUCTION
 The final project is composed by 3 parts. The first part was about encryption, decryption (symmetric/ asymmetric), hashing, signing and validation of signing and certificate. The second part was an introduction to SSL (secure socket layer) implementation. A connection should be established between a server and a client. The third part was more advance techniques about SSL and how encrypted connection can be achieved.    
